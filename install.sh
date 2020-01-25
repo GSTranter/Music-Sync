@@ -1,3 +1,3 @@
 #!bin/bash
 
-pip install -r reqs.txt
+pip install -r settings/reqs.txt
