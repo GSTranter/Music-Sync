@@ -14,7 +14,6 @@ import os
 import environ
 
 root = environ.Path(__file__) - 3  # get root of the project
-print(root)
 env = environ.Env()
 environ.Env.read_env(root('settings/.env'))  # reading .env file
 
